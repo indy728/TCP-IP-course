@@ -1,0 +1,15 @@
+# The OSI model
+- Open Systems Interconnection
+- 7-layer model that describes an architecture for communication
+- Standard for comms architecture
+- created in the '70s as an architecture for distributed database systems
+- created out of ARPA and IBM's system network architecture
+- not tied to any specific suite of protocols (protocol agnostic)
+- Physical layer handles connection types, error detection and correction
+- Data link layer: handles translation from digital data to physical signals, physical addressing (Media Access Control - MAC address), flow control & access control
+- Network layer: responsible for getting messages back and forth across different networks (routing), logical addressing to ensure reachability
+- Transport layer: handles end-to-end reliable data servise, handles ports to differentiate traffic
+- Session layer: controls specific dialogues between two systems (session management)
+- Presentation layer: manages how data is presented (XML, jpeg, etc)
+- Application layer: handle applications, manage all connections, web access, email, file transfers
+- Layer to layer: one layer speaks to another layer, each layer adds a header (encapsulation) and each layer is able to unwrap headers
